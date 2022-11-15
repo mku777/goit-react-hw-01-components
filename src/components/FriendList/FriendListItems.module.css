@@ -1,0 +1,33 @@
+.item {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.online {
+  margin-left: 20px;
+  border: 10px solid green;
+  border-radius: 50%;
+}
+
+.offline {
+  margin-left: 20px;
+  border: 10px solid red;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin-left: 20px;
+}
+
+.name {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}

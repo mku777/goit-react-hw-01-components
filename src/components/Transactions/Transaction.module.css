@@ -1,0 +1,17 @@
+table {
+    width: 1200px;
+    margin-top: 50px;
+    box-shadow: 0 0 40px #FFDD00;
+}
+
+tbody {
+
+    text-align: center;
+    font-size: 24px;
+}
+
+tbody tr {
+    margin-bottom: 10px;
+    padding: 20px;
+    font-weight: 400;
+}
